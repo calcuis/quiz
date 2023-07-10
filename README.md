@@ -5,7 +5,7 @@ Download the repo, assume using node package manager (npm),  install the depende
 npm i
 ```
 
-Then simply type (test it for localhost)
+Then simply type (test it locally)
 ```
 npm run start
 ```
