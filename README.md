@@ -10,5 +10,5 @@ Then simply type (test it locally)
 npm run start
 ```
 
-#### See demonstration page below:
+#### See demo page below:
 https://mc.calcuis.us
