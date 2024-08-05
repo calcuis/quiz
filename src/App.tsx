@@ -4,11 +4,9 @@ import Mc from './mc';
 import { useEffect, useState } from 'react';
 
 function App() {
-  const gate = "dweb.link";
-  // const gate = "ipfs.io";
+  const gate = "ipfs.io";
 
   const [theme, setTheme] = useState('light');
-  // const [theme, setTheme] = useState('dark');
   const toggleTheme = () => {
     if (theme === 'light') {
       setTheme('dark');
@@ -28,7 +26,7 @@ function App() {
   const callData = async() => {
     try {
     setIsLoading(true);
-    const hash = "bafybeigrwmq3g7dvl26qkdmf25gfogr2l3lzifunbqupqylsshalwyvo3i";
+    const hash = "bafybeibx4ahjbvv4k3w232xnhslkezwolfp2hr2jqpngv5on4yza2ha7ru";
     const file = "0";
     const data_call = await fetch(`https://${gate}/ipfs/${hash}/${file}.json`);
       const data = await data_call.json();
