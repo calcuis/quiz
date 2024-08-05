@@ -1,4 +1,4 @@
-## Quiz Game with typescript
+## Quiz Game
 
 Download the repo, assume using node package manager (npm),  install dependencies (default settings in react actually)
 ```
